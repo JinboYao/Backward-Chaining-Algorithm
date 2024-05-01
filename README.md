@@ -45,7 +45,7 @@ The knowledge base includes rules and facts representing familial relationships:
 
 ## Implementation
 
-Here is a simplified code snippet of the backward chaining algorithm implemented in Python:
+The simplified code snippet of the backward chaining algorithm implemented in Python
 
 ## Result
 ![微信截图_20240501162858.png](https://img2.imgtp.com/2024/05/01/TBxQk52g.png)
