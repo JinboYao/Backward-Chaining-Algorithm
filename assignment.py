@@ -114,13 +114,13 @@ def backward_chaining(query, knowledge_base):
     return answer
 
 def solve_queries(queries, knowledge_base):
-    all_results = []
+    results = []
     for query in queries:
-        entry = backward_chaining(query, knowledge_base)
-        dicts = extract_dictionaries(entry)
-        results = generate_combinations(dicts)
-        all_results.append(results)
-    return all_results
+        result = backward_chaining(query, knowledge_base)
+        dicts = extract_dictionaries(result)
+        result_0 = generate_combinations(dicts)
+        results.append(result_0)
+    return results
 
 if __name__ == '__main__':
     ## INPUT
